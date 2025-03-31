@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Muskan | View My Work</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Raleway:wght@400&display=swap');
+        
+        body {
+            font-family: 'Raleway', sans-serif;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+        .hero {
+            background: linear-gradient(135deg, #2c3e50, #4ca1af);
+            padding: 60px 0;
+            text-align: center;
+            color: white;
+        }
+        h1, h2 {
+            font-family: 'Playfair Display', serif;
+            color: #2c3e50;
+        }
+        .section {
+            padding: 40px 0;
+            text-align: center;
+            background-color: #ffffff;
+            border-radius: 10px;
+            margin: 20px 0;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .gallery img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin-bottom: 15px;
+        }
+        .btn-custom {
+            background-color: #4ca1af;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 25px;
+            text-decoration: none;
+        }
+        .btn-custom:hover {
+            background-color: #357f8e;
+        }
+        .hero h1 {
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <header class="hero">
+        <h1 style="color: white;">My Work</h1>
+        <p>A showcase of my creative and technical projects</p>
+    </header>
+    
+    <div class="container">
+        <!-- Posters & Designs Section -->
+        <section class="section" id="designs">
+            <h2>Posters & Designs</h2>
+            <div class="row gallery">
+                <div class="col-md-4"><img src="assets/poster1.png" alt="Poster 1"></div>
+                <div class="col-md-4"><img src="assets/poster2.png" alt="Poster 2"></div>
+                <div class="col-md-4"><img src="assets/poster3.png" alt="Poster 3"></div>
+                <div class="col-md-4"><img src="assets/poster4.jpg" alt="Poster 4"></div>
+                <div class="col-md-4"><img src="assets/poster5.png" alt="Poster 5"></div>
+                <div class="col-md-4"><img src="assets/poster6.png" alt="Poster 6"></div>
+            </div>
+        </section>
+
+        <!-- Edited Videos Section -->
+        <section class="section" id="videos">
+            <h2>Edited Videos</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <video width="100%" controls>
+                        <source src="assets/video1.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <div class="col-md-4">
+                    <video width="100%" controls>
+                        <source src="assets/video2.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <div class="col-md-4">
+                    <video width="100%" controls>
+                        <source src="assets/video3.mp4" type="video/mp4">
+                    </video>
+                </div>
+            </div>
+        </section>
+
+        <!-- Computer Science Projects Section -->
+        <section class="section" id="coding-projects">
+            <h2>Computer Science Projects</h2>
+            <ul>
+                <li><a href="assets/project1.docx" download>Download Project 1 (DOCX)</a></li>
+                <li><a href="assets/project2.docx" download>Download Project 2 (DOCX)</a></li>
+                <li><a href="assets/project3.pdf" download>Download Project 3 (PDF)</a></li>
+                <li><a href="assets/project4.zip" download>Download Project 4 (ZIP)</a></li>
+            </ul>
+        </section>
+        
+        <section class="section">
+            <a href="portfolio.html" class="btn btn-custom">Back to Portfolio</a>
+        </section>
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
